@@ -1,0 +1,14 @@
+touch .gitingnore
+git config --global user.name Nikace
+git config --global user.email myemail@gmail.com
+git init
+git add . (stage the files)
+git commit -m "inital commit"
+git status
+
+"Key Genearation"
+$ ssh-keygen -t ed25519 -C "poudel.nik@gmail.com"
+
+git remote add origin <Key generation URL>
+
+git push origin master
